@@ -9,7 +9,7 @@ export default function App() {
   const [locations, setLocations] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/locations")
+    fetch("https://cns-backend-gb0a.onrender.com/api/locations")
       .then((res) => res.json())
       .then((data) => setLocations(data))
       .catch(() => alert("Failed to load locations"));

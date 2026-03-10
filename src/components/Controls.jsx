@@ -108,7 +108,7 @@ export default function Controls({
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/route", {
+      const res = await fetch("https://cns-backend-gb0a.onrender.com/api/route", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

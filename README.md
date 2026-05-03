@@ -19,6 +19,7 @@ Supports dynamic updates like events or temporary closures
 🧭 Manual Location Entry
 Allows users to manually enter their location if GPS fails
 Ensures uninterrupted navigation in low-signal areas
+
 🛠️ Tech Stack
 🎨 Frontend
 React.js – Interactive UI development
@@ -30,6 +31,7 @@ Express.js – REST API development
 🗄️ Database
 PostgreSQL – Data storage
 PostGIS – Geospatial queries and shortest-path calculations
+
 📂 Project Structure
 campus-navigation-system/
 │── client/              # React frontend
@@ -39,6 +41,7 @@ campus-navigation-system/
 │── models/              # Database models
 │── public/
 │── README.md
+
 ⚙️ How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/bonthushalini/campus-navigation-system.git
